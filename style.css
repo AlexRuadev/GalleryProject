@@ -1,0 +1,177 @@
+/************************************************/
+/*                  GENERAL                     */
+/************************************************/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.wrapper {
+    padding: 40px 5px;
+}
+
+
+
+
+
+/***********************************************/
+/*                  HEADER                     */
+/***********************************************/
+nav {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+nav ul li a {
+    font-size: 1.2em;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(255, 255, 255, 0.7) !important;
+    transition: background-color 200ms linear;
+  }
+
+.banner {
+    background-image: url("img/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+}
+
+/************************************************/
+/*                  BUTTONS                     */
+/************************************************/
+.myButtonSignin {
+    background-color: #ec9027;
+    display: inline-block;
+    font-weight: 400;
+    color: rgba(0,0,0,0.9);
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.myButtonSignin span {
+    color: #fff;
+}
+
+
+
+/******************************************************/
+/*                  IMAGE GALLERY                     */
+/******************************************************/
+.titleh2 {
+    font-size: 3em;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.gallery-container a.myImg {
+    width: 100%;
+}
+
+
+.galleryPhoto {
+    /* background: #ccc; */
+    min-height: 200px;
+    max-height: 400px;
+    width: auto;
+    padding: 5px;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+
+
+.gallery-upload button {
+    margin: 0 auto;
+}
+
+/**********************************************/
+/*                  FORMS                     */
+/**********************************************/
+#loginForm .form-group{
+    margin: 0 10px;
+    
+}
+
+.form-row {
+    margin: 0 0;
+}
+.signupError {
+    color: red;
+}
+
+.signupsuccess {
+    color: green;
+}
+
+
+
+
+/***********************************************/
+/*                  MODALS                     */
+/***********************************************/
+
+/* Modal SignIn */
+
+
+
+.signupLink,
+#signInModal h5 {
+    width: 100%;
+}
+
+
+.formUpload {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Modal Upload */ 
+#uploadModal .modal-body {
+    padding: 0;
+}
+
+#uploadModal .buttons-modal-upload {
+    padding: 5px;
+}
+
+.gallery-upload {
+    background-image: url("img/uploadSection.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+/***********************************************/
+/*                  FOOTER                     */
+/***********************************************/
+
+footer {
+    background: #5e5e5e;
+    height: auto;
+    color: #fff;
+    font-size: 2em;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-size: 0.6em;
+    color: #2e2d2d;
+}
